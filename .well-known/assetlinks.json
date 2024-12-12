@@ -1,0 +1,32 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+    "target": {
+    "namespace": "android_app",
+    "package_name": "com.trala.learn.violin",
+    "sha256_cert_fingerprints":
+    ["AA:E4:DD:BF:1A:62:D8:D9:26:8B:E3:89:87:90:B8:43:C4:1E:E6:2B:F0:0B:5D:52:8C:16:CF:90:09:25:1C:49",
+        "94:C8:AF:96:74:DF:62:CE:3F:B4:A8:EB:EA:AD:88:50:5E:13:02:09:51:1C:FF:9C:48:EE:4A:4C:39:C3:F0:0C",
+        "60:23:01:DB:ED:7B:A6:C3:90:9C:83:76:4C:75:82:AD:75:9D:F8:05:A9:8A:C0:F9:2B:47:98:2F:7A:E8:A6:9C"
+    ]
+  }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "ios_app",
+      "appID": "3XHBW94274.tfw.trala",
+      "paths": [
+        "/deeplink/*",
+	"/*"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "web",
+      "site": "https://*.trala.com"
+    }
+  }
+]

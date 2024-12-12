@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "3XHBW94274.tfw.trala",
+      "paths": [
+        "/deeplink/*",
+	"/*
+      ]
+    }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "3XHBW94274.tfw.trala"
+    ]
+  }
+}
