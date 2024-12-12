@@ -52,6 +52,11 @@ main {
     box-sizing: border-box;
 }
 
+a {
+    color: var(--brand-orange);
+    font-weight: bold;
+}
+
 #logo {
     max-width: 100%;
 }
